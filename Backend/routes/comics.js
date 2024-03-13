@@ -6,8 +6,8 @@ require('dotenv').config();
 
 
 // Your Marvel API keys
-const publicKey = process.env.publicKey;
-const privateKey = process.env.privateKey;
+const publicKey = 'e3a9ad29b3529796fdaba380bdaaac8c';
+const privateKey = '82dc043b98e7625300cfa17c8da2a0c3613594f8';
 
 // Middleware to calculate the hash
 router.use((req, res, next) => {
